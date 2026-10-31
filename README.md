@@ -1,92 +1,124 @@
 # MODA Shop
 
-A Flutter fashion-commerce portfolio project with an Express REST API and PostgreSQL/Prisma backend. MODA pairs an ivory, charcoal and muted-gold interface with product-specific color/size variants, persistent shopping state and a transactional Cash on Delivery checkout.
+A fashion e-commerce portfolio app built with Flutter, backed by an Express REST API and PostgreSQL.
 
-**Portfolio demo, not a live store.** Products, USD prices, availability, shipping and policy text are demonstration content. No production-readiness or live online-payment support is claimed.
+[![Flutter](https://img.shields.io/badge/Flutter-3.41.2-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.11.0-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-%5E22.12.0%20%7C%7C%20%3E%3D24.0.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-5.1-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?logo=prisma&logoColor=white)](https://www.prisma.io/)
+
+## Project Overview
+
+MODA is a fashion e-commerce portfolio and demo application. It brings product discovery, variant selection, a persistent cart, customer accounts, and order management together in a mobile shopping experience. The project demonstrates a Flutter client working with a REST API and relational database; its catalog and business content are sample data, not a live store.
 
 ## Screenshots
 
-Home is a fresh actual Flutter widget-renderer capture; the other three are Android Emulator captures. They show the demo catalog without customer names, addresses, tokens or account details.
+The Home screen below is an actual Flutter widget-renderer capture using the demo catalog and mocked storage/authentication. See the [screenshot notes](docs/screenshots/README.md) for context.
 
-| Home | Category browsing |
-|---|---|
-| <img src="docs/screenshots/home.png" width="280" alt="MODA Home"> | <img src="docs/screenshots/catalog.png" width="280" alt="Category browsing"> |
-| Product gallery | Color and size selection |
-| <img src="docs/screenshots/product.png" width="280" alt="Product gallery"> | <img src="docs/screenshots/variants.png" width="280" alt="Color and size selection"> |
-
-See [screenshot notes](docs/screenshots/README.md) for capture details and image provenance.
+<p align="center">
+  <img src="docs/screenshots/home.png" width="760" alt="MODA Shop Home screen showing the fashion demo catalog">
+</p>
 
 ## Features
 
-- 24 sample products in Clothing, Bags, Shoes, Jewelry and Accessories; newest-first New Arrivals collection.
-- Search, combined category/price/size filters, sorting and clearable recent searches.
-- Server-defined product colors and size combinations: S/M/L, One Size and EU footwear sizes. Unavailable combinations are disabled and validated again at checkout.
-- Color-specific local photo galleries, thumbnails, fullscreen paging and pinch zoom; honest missing-image fallback.
-- Device-local wishlist and persistent cart. Restoration revalidates product availability, exact variants and current server prices.
-- Secure session storage, account/profile/password flows and email verification/recovery support through optional Resend configuration.
-- User-owned Egyptian shipping addresses, mobile validation and default address selection.
-- Backend-calculated checkout totals, configurable shipping placeholder and COD orders created transactionally with idempotency keys.
-- Account-isolated uncertain-checkout recovery and one-time cart settlement, order history, address/item/price/variant snapshots.
-- Help content labeled as a demonstration, reduced-motion-aware startup branding and Android adaptive launcher icon.
+### Customer experience
 
-## Stack
+- Browse the demo catalog by category, search, sort, and combine price, size, and category filters.
+- View product details, color-specific galleries, fullscreen images, and pinch-to-zoom.
+- Save recent searches and a device-local wishlist.
 
-| Layer | Technology |
-|---|---|
-| Client | Flutter, Dart, Material widgets and the existing controller/repository architecture |
-| Local state | flutter_secure_storage for sessions, cart/recovery and device-local preferences |
-| API | Node.js, Express 5, JWT, bcrypt |
-| Database | PostgreSQL, Prisma 7, pg adapter, checked-in SQL migrations |
-| Optional mail | Resend HTTP delivery; disabled in the example configuration |
-| Testing | flutter_test and Node's built-in test runner with injected dependencies |
+### Shopping
 
-Validated locally with Flutter 3.41.2 / Dart 3.11.0 and Node 22.15.0. The Dart constraint is `^3.11.0`; backend engines allow Node `^22.12.0 || >=24.0.0`. Use a compatible Flutter SDK, PostgreSQL, Git and an Android development environment reported healthy by `flutter doctor`. No platform build-version changes are needed for this project.
+- Select available product colors and sizes, including One Size and EU footwear sizes.
+- Add selected variants to a persistent cart; restored cart items are checked against current product availability and prices.
+- Get server-calculated checkout totals and place Cash on Delivery orders.
 
-## Project structure
+### Account
 
-```text
-lib/                   Flutter models, controllers, repositories, services, screens and widgets
-assets/                Bundled product images and MODA branding
-backend/src/           Express routes, validation/services, repositories and middleware
-backend/prisma/        Schema, additive migrations and repeatable demo catalog seed
-backend/test/          Backend unit and HTTP tests
-backend/scripts/       Validation and safe local verification tools
-test/                  Flutter tests and synthetic fixtures
-tool/                  Asset tooling and the redacted publication audit
-docs/                  Public architecture, provenance, checklist and screenshots
+- Register, log in, manage a profile and password, and use email verification and password-recovery flows when mail delivery is configured.
+- Manage customer-owned shipping addresses and choose a default address.
+
+### Order management
+
+- View order history and saved order details.
+- Recover an uncertain checkout and protect order creation against duplicate requests.
+- Keep order status separate from payment status; a COD order is not marked as paid when placed.
+
+## Tech Stack
+
+| Area | Technologies |
+| --- | --- |
+| Mobile app | Flutter, Dart |
+| REST API | Node.js, Express 5 |
+| Data | PostgreSQL, Prisma 7 |
+| Authentication | JWT, bcrypt |
+| Optional email delivery | Resend; disabled in the example configuration |
+| Tests | `flutter_test`, Node.js built-in test runner |
+
+The repository documents a verified setup with Flutter 3.41.2 / Dart 3.11.0 and Node.js 22.15.0. The backend supports Node.js `^22.12.0 || >=24.0.0`; the Dart SDK constraint is `^3.11.0`.
+
+## Architecture
+
+The Flutter app calls the Express REST API. The API validates requests, applies account and commerce rules, and uses Prisma to read and write PostgreSQL data. Product availability, variants, prices, and checkout totals are resolved by the backend.
+
+```mermaid
+flowchart LR
+  Customer --> App[Flutter mobile app]
+  App -->|REST API| API[Express on Node.js]
+  API -->|Prisma| DB[(PostgreSQL)]
 ```
 
-## Local setup
+For more detail, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-Clone the source repository, then work from its root. Dependency versions are pinned in `pubspec.lock` and `backend/package-lock.json`. PostgreSQL must be installed/running before database commands; the regular unit/HTTP tests do not require a running database.
-
-### 1. Private backend configuration
-
-PowerShell:
-
-```powershell
-cd backend
-if (!(Test-Path .env)) { Copy-Item .env.example .env }
-```
-
-On macOS/Linux use `test -f .env || cp .env.example .env`. Edit your private `.env` locally: set your own PostgreSQL `DATABASE_URL`. URL-encode credentials if necessary. Never commit `.env`, paste credentials into screenshots, or put backend secrets in Flutter `--dart-define` arguments.
-
-Keep `EMAIL_DELIVERY_ENABLED=false`, `CHECK_BREACHED_PASSWORDS=false` and `PAYMOB_ENABLED=false` for the documented local demo. `STORE_CURRENCY=USD` must match the sample catalog. `SHIPPING_FEE_CENTS=0` is a labeled free-shipping demo placeholder, not a carrier quotation. Current owner credentials are not supplied in this repository.
-
-### 2. Database and API
-
-For a **new local database only**, an administrator can create a dedicated role/database using the PostgreSQL CLI. These commands prompt for the new role password rather than putting it in command history:
+## Project Structure
 
 ```text
+assets/             Bundled product photography, catalog illustrations, and branding
+backend/            Express API, Prisma schema/migrations, seeds, and backend tests
+docs/               Architecture, image provenance, release notes, and screenshots
+lib/                Flutter app: screens, widgets, models, repositories, and services
+test/               Flutter tests and synthetic fixtures
+tool/               Asset utilities and repository verification scripts
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK compatible with Dart `^3.11.0` and the Flutter app's supported platforms.
+- Node.js `^22.12.0` or `>=24.0.0`.
+- PostgreSQL and a local database for catalog and commerce operations.
+- Android Studio and an Android SDK/emulator to run the Android app.
+
+### 1. Configure the backend
+
+Create a local PostgreSQL database and user if needed. For a new local database, the PostgreSQL commands below prompt for the role password:
+
+```sh
 createuser --host=localhost --username=postgres --pwprompt moda_user
 createdb --host=localhost --username=postgres --owner=moda_user moda_shop
 ```
 
-Use your administrator role if it is not named `postgres`. Existing database owners should skip creation and point `.env` at the intended database after taking their normal backup.
+If your PostgreSQL administrator has a different name, use it in place of `postgres`. From the repository root, create a private backend environment file and install the locked dependencies:
 
-From `backend/`:
+```powershell
+Copy-Item backend/.env.example backend/.env
+```
 
-```text
+On macOS/Linux:
+
+```sh
+cp backend/.env.example backend/.env
+```
+
+Edit `backend/.env` locally and set `DATABASE_URL` to your database. The example uses `moda_user` and `moda_shop`; URL-encode special characters in the password. Keep this file private and never commit it.
+
+Then start the API from the `backend` directory:
+
+```sh
+cd backend
 npm ci
 npm run auth:secret
 npm run prisma:generate
@@ -96,85 +128,52 @@ npm run db:check
 npm start
 ```
 
-`auth:secret` writes a random JWT secret to the private `.env` only when absent and preserves an existing valid value. It never displays the value. `db:migrate` uses `prisma migrate deploy`, applying reviewed, checked-in migrations. `db:seed` creates missing demo catalog records with stable IDs, preserves existing prices/availability and owner-created collisions, and does not delete users, addresses or orders. No migrations/seeds run automatically on server startup.
+The migration and seed commands are for a database you intend to use for this app. Review the checked-in migrations and back up existing data first. The seed preserves existing prices and availability; do not reset, truncate, or drop an existing database to set up the demo.
 
-**Do not run database resets, truncate tables, drop schemas or accept destructive migration prompts.** Migrations include targeted transformations of app-owned legacy demo data; review them and back up an existing database before applying them.
+### 2. Run the Flutter app
 
-### 3. Flutter / Android Emulator
+In a second terminal, from the repository root:
 
-In another terminal, from the repository root:
-
-```text
-flutter doctor
+```sh
 flutter pub get
-flutter emulators
-flutter devices
 flutter run --dart-define=API_BASE_URL=http://10.0.2.2:3000/api
 ```
 
-Launch an Android Emulator in Android Studio first (or use `flutter emulators --launch <emulator-id>`). `10.0.2.2` reaches the development host from the standard Android Emulator; it is also the client's default API host. This URL is public configuration, not a secret. Physical devices require a reachable host address and deliberate local networking configuration. Changing `API_BASE_URL` requires a full app restart.
+Start an Android emulator first. `10.0.2.2` is the Android Emulator address for services on the development host. For a physical device, configure `API_BASE_URL` to a host address reachable from that device. This URL is app configuration, not a secret.
 
-Signed-out users can browse the catalog from Login. Register a disposable local account with a unique password to exercise authenticated browsing and addresses. **Checkout requires a verified email.** With delivery disabled, registration/login work but verification/recovery cannot send codes, and unverified checkout remains gated. Use an owner-approved verified disposable account for interactive COD testing, or use the automated tests, which simulate mail/account states without sending email. No shared account credentials, seeded customers or verification bypass are provided.
+## Demo Information
 
-For a local debug build:
+- The catalog contains 24 sample products across five categories. Product availability, prices, shipping, and policy content are demonstration data.
+- Cash on Delivery is the documented checkout method. No live online payment processing is available; disabled sandbox scaffolding does not enable real payments.
+- Email delivery is disabled in the example configuration. Registration and login work locally, but interactive email verification and recovery require authorized mail-provider configuration. Checkout requires a verified account; automated tests simulate account/mail states without sending email.
+- No shared demo account or customer credentials are provided. Use your own disposable local account if you configure email verification.
+- Catalog and commerce operations require the local API and PostgreSQL; the app is not fully offline.
 
-```text
-flutter build apk --debug
-```
+## Testing
 
-Output: `build/app/outputs/flutter-apk/app-debug.apk` (ignored by Git). Update an existing emulator installation with `adb install -r build/app/outputs/flutter-apk/app-debug.apk`; do not uninstall or clear data to test persistent cart behavior. SDK/JDK paths remain local to each developer.
+Run Flutter checks from the repository root:
 
-## Checks
-
-From the root:
-
-```text
+```sh
 flutter analyze --no-pub
 flutter test --no-pub
-node tool/audit_publication.mjs
-node --test tool/audit_publication.test.mjs
 ```
 
-From `backend/` after `npm ci` and generation:
+Run backend checks from `backend/` after installing dependencies and generating Prisma Client:
 
-```text
+```sh
 npm test
 npm run check
 npm run prisma:validate
-npm audit
 ```
 
-For a configured, migrated and seeded **local development database**, optional checks are:
+The regular backend test suite uses synthetic repositories and does not require a running PostgreSQL database. Optional database/API verification commands and their prerequisites are documented in [backend/README.md](backend/README.md).
 
-```text
-npm run api:verify
-npm run catalog:verify
-npm run commerce:verify
-```
+## Author
 
-`api:verify` is read-only. Catalog/commerce checks create synthetic data inside transactions and roll it back, verifying persistence/ownership/idempotency and unchanged existing counts. Do not use email-delivery scripts or enable provider integrations merely to run tests. Optional screenshot-export tests are skipped unless their explicit capture/font arguments are supplied.
+**Rawan Hossam** · [GitHub](https://github.com/rawanhossamdev)
 
-## Limits and external services
+## Image Credits and Project License
 
-- COD is the only active payment method in the documented demo. Orders start Pending / Unpaid; placing COD does not mark payment as received. Disabled Paymob sandbox scaffolding exists but is not a live-payment feature or production validation.
-- Products, prices, color availability, shipping fees and Help policies are sample content; no real stock tracking, fulfillment, returns policy, carrier rates or customer-support service is claimed.
-- Current catalog prices stay USD. Egyptian address fields do not imply EGP conversion.
-- Resend requires the owner's authorized credentials, sender/domain and recipient rules for actual delivery. New local accounts cannot complete verified checkout with delivery off. No real mail was sent during portfolio preparation.
-- Local API/PostgreSQL are needed for catalog and commerce operations; bundled images alone do not make the application fully offline.
-- No admin dashboard, production deployment hardening, live carrier integration or store release is included.
+Product photography is AI-generated and disclosed in the app. See [image provenance](docs/IMAGE_PROVENANCE.md) for the documented sources, limitations, and review status. Geometric catalog artwork has its own existing CC0 notice at [assets/images/catalog/LICENSE.md](assets/images/catalog/LICENSE.md).
 
-## Images, attribution and license
-
-See [image provenance](docs/IMAGE_PROVENANCE.md), [catalog manifest](assets/images/photography/PROVENANCE.json), [replacement records and exact hero prompts](assets/images/PUBLICATION_REPLACEMENTS.json), and [edit history](assets/images/photography/EDIT_HISTORY.json). Five unknown-source photos were replaced; their original bytes are excluded. The new hero and catalog use generated fictional imagery, explicitly disclosed in the UI. Provider output-rights terms are documented separately from generation; owner account/input/model, Figma and branding approvals remain necessary. No blanket clearance is claimed.
-
-The MODA presentation was informed by the Open Fashion community UI reference; this does not grant rights to that reference's assets or design files. Its specific license remains unverified and requires owner confirmation of reference-only use/permission. This repository does not contain a redistributed Figma source file.
-
-**Copyright © 2026 MODA Shop project owner, for owner-authored material. All rights reserved.** Source is publicly visible for portfolio review; this project grants no permission to copy, redistribute, modify, or commercially reuse its source. No software reuse license or root LICENSE is provided. This does not restrict rights under applicable law or GitHub's terms, including viewing and platform forking. See [GitHub's licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
-
-Third-party dependencies, icons, images and any files with pre-existing separate license notices retain their own rights and terms; this notice neither claims ownership of them nor revokes existing grants. In particular, geometric artwork/drawing source has an existing CC0 notice. Five unknown-source photos were replaced with documented generated-output sources; account/input/model, Figma and branding confirmations remain required. See [image provenance](docs/IMAGE_PROVENANCE.md) and the [release checklist](docs/RELEASE_CHECKLIST.md).
-
-## Portfolio and publication
-
-[Portfolio case study](PORTFOLIO.md) · [Architecture](docs/ARCHITECTURE.md) · [Release checklist](docs/RELEASE_CHECKLIST.md) · [Preparation report and safe publication commands](docs/PUBLICATION_REPORT.md)
-
-The repository has not been published by this preparation pass. The owner has chosen no software reuse license. Publication still requires resolution of asset rights, a staged secrets audit and explicit final approval.
+No project-wide software reuse license is provided, and no root `LICENSE` file is included. Third-party components and separately licensed assets retain their respective notices and terms.
