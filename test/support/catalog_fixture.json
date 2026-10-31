@@ -1,0 +1,2638 @@
+[
+  {
+    "id": "knit-sweater",
+    "name": "Ribbed Knit Sweater",
+    "categorySlug": "clothing",
+    "priceInCents": 3500,
+    "type": "sweater",
+    "isDemo": true,
+    "isFeatured": true,
+    "defaultColorKey": "cream",
+    "colors": [
+      {
+        "id": "knit-sweater:cream",
+        "key": "cream",
+        "name": "Cream",
+        "hex": "#E9DECA",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "knit-sweater:cream:photo:front",
+            "path": "assets/images/photography/knit-sweater_cream_front.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "knit-sweater:cream:photo:side",
+            "path": "assets/images/photography/knit-sweater_cream_side.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "knit-sweater:cream:photo:detail",
+            "path": "assets/images/photography/knit-sweater_cream_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "knit-sweater:mocha",
+        "key": "mocha",
+        "name": "Mocha",
+        "hex": "#8B6C57",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "knit-sweater:mocha:photo:front",
+            "path": "assets/images/photography/knit-sweater_mocha_front.jpg",
+            "kind": "ai_photo",
+            "label": "Mocha / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/knit-sweater_cream_front.jpg",
+    "description": "Ribbed Knit Sweater is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "knit-sweater:cream:S",
+        "colorId": "knit-sweater:cream",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "knit-sweater:cream:M",
+        "colorId": "knit-sweater:cream",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "knit-sweater:cream:L",
+        "colorId": "knit-sweater:cream",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "knit-sweater:mocha:S",
+        "colorId": "knit-sweater:mocha",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "knit-sweater:mocha:M",
+        "colorId": "knit-sweater:mocha",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "knit-sweater:mocha:L",
+        "colorId": "knit-sweater:mocha",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "knit-sweater:cream",
+    "images": [],
+    "createdAt": "2026-10-30T00:00:00.000Z"
+  },
+  {
+    "id": "wide-leg-trousers",
+    "name": "Wide Leg Trousers",
+    "categorySlug": "clothing",
+    "priceInCents": 5500,
+    "type": "trousers",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "sand",
+    "colors": [
+      {
+        "id": "wide-leg-trousers:sand",
+        "key": "sand",
+        "name": "Sand",
+        "hex": "#B6A386",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "wide-leg-trousers:sand:photo:front",
+            "path": "assets/images/photography/wide-leg-trousers_sand_front.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "wide-leg-trousers:sand:photo:side",
+            "path": "assets/images/photography/wide-leg-trousers_sand_side.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "wide-leg-trousers:sand:photo:detail",
+            "path": "assets/images/photography/wide-leg-trousers_sand_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "wide-leg-trousers:charcoal",
+        "key": "charcoal",
+        "name": "Charcoal",
+        "hex": "#4A4A49",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "wide-leg-trousers:charcoal:photo:front",
+            "path": "assets/images/photography/wide-leg-trousers_charcoal_front.jpg",
+            "kind": "ai_photo",
+            "label": "Charcoal / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/wide-leg-trousers_sand_front.jpg",
+    "description": "Wide Leg Trousers is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "wide-leg-trousers:sand:S",
+        "colorId": "wide-leg-trousers:sand",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "wide-leg-trousers:sand:M",
+        "colorId": "wide-leg-trousers:sand",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "wide-leg-trousers:sand:L",
+        "colorId": "wide-leg-trousers:sand",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "wide-leg-trousers:charcoal:S",
+        "colorId": "wide-leg-trousers:charcoal",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "wide-leg-trousers:charcoal:M",
+        "colorId": "wide-leg-trousers:charcoal",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "wide-leg-trousers:charcoal:L",
+        "colorId": "wide-leg-trousers:charcoal",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "wide-leg-trousers:sand",
+    "images": [],
+    "createdAt": "2026-10-30T00:01:00.000Z"
+  },
+  {
+    "id": "tailored-blazer",
+    "name": "Tailored Blazer",
+    "categorySlug": "clothing",
+    "priceInCents": 8500,
+    "type": "blazer",
+    "isDemo": true,
+    "isFeatured": true,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "tailored-blazer:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "tailored-blazer:black:photo:front",
+            "path": "assets/images/photography/tailored-blazer_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "tailored-blazer:black:photo:side",
+            "path": "assets/images/photography/tailored-blazer_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "tailored-blazer:black:photo:detail",
+            "path": "assets/images/photography/tailored-blazer_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "tailored-blazer:camel",
+        "key": "camel",
+        "name": "Camel",
+        "hex": "#BA936B",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "tailored-blazer:camel:photo:front",
+            "path": "assets/images/photography/tailored-blazer_camel_front.jpg",
+            "kind": "ai_photo",
+            "label": "Camel / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/tailored-blazer_black_front.jpg",
+    "description": "Tailored Blazer is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "tailored-blazer:black:S",
+        "colorId": "tailored-blazer:black",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "tailored-blazer:black:M",
+        "colorId": "tailored-blazer:black",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "tailored-blazer:black:L",
+        "colorId": "tailored-blazer:black",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "tailored-blazer:camel:S",
+        "colorId": "tailored-blazer:camel",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "tailored-blazer:camel:M",
+        "colorId": "tailored-blazer:camel",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "tailored-blazer:camel:L",
+        "colorId": "tailored-blazer:camel",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "tailored-blazer:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:02:00.000Z"
+  },
+  {
+    "id": "shoulder-bag",
+    "name": "Shoulder Bag",
+    "categorySlug": "bags",
+    "priceInCents": 6500,
+    "type": "bag",
+    "isDemo": true,
+    "isFeatured": true,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "shoulder-bag:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "shoulder-bag:black:photo:front",
+            "path": "assets/images/photography/shoulder-bag_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "shoulder-bag:black:photo:side",
+            "path": "assets/images/photography/shoulder-bag_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "shoulder-bag:black:photo:detail",
+            "path": "assets/images/photography/shoulder-bag_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "shoulder-bag:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "shoulder-bag:brown:photo:front",
+            "path": "assets/images/photography/shoulder-bag_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/shoulder-bag_black_front.jpg",
+    "description": "Shoulder Bag is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "shoulder-bag:black:ONE_SIZE",
+        "colorId": "shoulder-bag:black",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "shoulder-bag:brown:ONE_SIZE",
+        "colorId": "shoulder-bag:brown",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Bags",
+      "slug": "bags",
+      "id": "bags"
+    },
+    "defaultColorId": "shoulder-bag:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:03:00.000Z"
+  },
+  {
+    "id": "relaxed-shirt",
+    "name": "Relaxed Button Shirt",
+    "categorySlug": "clothing",
+    "priceInCents": 4200,
+    "type": "shirt",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "white",
+    "colors": [
+      {
+        "id": "relaxed-shirt:white",
+        "key": "white",
+        "name": "White",
+        "hex": "#F1EFE9",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "relaxed-shirt:white:photo:front",
+            "path": "assets/images/photography/relaxed-shirt_white_front.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "relaxed-shirt:white:photo:side",
+            "path": "assets/images/photography/relaxed-shirt_white_side.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "relaxed-shirt:white:photo:detail",
+            "path": "assets/images/photography/relaxed-shirt_white_detail.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "relaxed-shirt:blue",
+        "key": "blue",
+        "name": "Denim Blue",
+        "hex": "#657C92",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "relaxed-shirt:blue:photo:front",
+            "path": "assets/images/photography/relaxed-shirt_blue_front.jpg",
+            "kind": "ai_photo",
+            "label": "Denim Blue / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/relaxed-shirt_white_front.jpg",
+    "description": "Relaxed Button Shirt is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "relaxed-shirt:white:S",
+        "colorId": "relaxed-shirt:white",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "relaxed-shirt:white:M",
+        "colorId": "relaxed-shirt:white",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "relaxed-shirt:white:L",
+        "colorId": "relaxed-shirt:white",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "relaxed-shirt:blue:S",
+        "colorId": "relaxed-shirt:blue",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "relaxed-shirt:blue:M",
+        "colorId": "relaxed-shirt:blue",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "relaxed-shirt:blue:L",
+        "colorId": "relaxed-shirt:blue",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "relaxed-shirt:white",
+    "images": [],
+    "createdAt": "2026-10-30T00:04:00.000Z"
+  },
+  {
+    "id": "pleated-midi-skirt",
+    "name": "Pleated Midi Skirt",
+    "categorySlug": "clothing",
+    "priceInCents": 5800,
+    "type": "skirt",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "sand",
+    "colors": [
+      {
+        "id": "pleated-midi-skirt:sand",
+        "key": "sand",
+        "name": "Sand",
+        "hex": "#B6A386",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "pleated-midi-skirt:sand:photo:front",
+            "path": "assets/images/photography/pleated-midi-skirt_sand_front.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "pleated-midi-skirt:sand:photo:side",
+            "path": "assets/images/photography/pleated-midi-skirt_sand_side.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "pleated-midi-skirt:sand:photo:detail",
+            "path": "assets/images/photography/pleated-midi-skirt_sand_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "pleated-midi-skirt:navy",
+        "key": "navy",
+        "name": "Navy",
+        "hex": "#29384C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "pleated-midi-skirt:navy:photo:front",
+            "path": "assets/images/photography/pleated-midi-skirt_navy_front.jpg",
+            "kind": "ai_photo",
+            "label": "Navy / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/pleated-midi-skirt_sand_front.jpg",
+    "description": "Pleated Midi Skirt is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "pleated-midi-skirt:sand:S",
+        "colorId": "pleated-midi-skirt:sand",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "pleated-midi-skirt:sand:M",
+        "colorId": "pleated-midi-skirt:sand",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "pleated-midi-skirt:sand:L",
+        "colorId": "pleated-midi-skirt:sand",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "pleated-midi-skirt:navy:S",
+        "colorId": "pleated-midi-skirt:navy",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "pleated-midi-skirt:navy:M",
+        "colorId": "pleated-midi-skirt:navy",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "pleated-midi-skirt:navy:L",
+        "colorId": "pleated-midi-skirt:navy",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "pleated-midi-skirt:sand",
+    "images": [],
+    "createdAt": "2026-10-30T00:05:00.000Z"
+  },
+  {
+    "id": "wrap-midi-dress",
+    "name": "Wrap Midi Dress",
+    "categorySlug": "clothing",
+    "priceInCents": 7900,
+    "type": "dress",
+    "isDemo": true,
+    "isFeatured": true,
+    "defaultColorKey": "rose",
+    "colors": [
+      {
+        "id": "wrap-midi-dress:rose",
+        "key": "rose",
+        "name": "Dusty Rose",
+        "hex": "#B88783",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "wrap-midi-dress:rose:photo:front",
+            "path": "assets/images/photography/wrap-midi-dress_rose_front.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "wrap-midi-dress:rose:photo:side",
+            "path": "assets/images/photography/wrap-midi-dress_rose_side.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "wrap-midi-dress:rose:photo:detail",
+            "path": "assets/images/photography/wrap-midi-dress_rose_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "wrap-midi-dress:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "wrap-midi-dress:black:photo:front",
+            "path": "assets/images/photography/wrap-midi-dress_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/wrap-midi-dress_rose_front.jpg",
+    "description": "Wrap Midi Dress is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "wrap-midi-dress:rose:S",
+        "colorId": "wrap-midi-dress:rose",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "wrap-midi-dress:rose:M",
+        "colorId": "wrap-midi-dress:rose",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "wrap-midi-dress:rose:L",
+        "colorId": "wrap-midi-dress:rose",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "wrap-midi-dress:black:S",
+        "colorId": "wrap-midi-dress:black",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "wrap-midi-dress:black:M",
+        "colorId": "wrap-midi-dress:black",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "wrap-midi-dress:black:L",
+        "colorId": "wrap-midi-dress:black",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "wrap-midi-dress:rose",
+    "images": [],
+    "createdAt": "2026-10-30T00:06:00.000Z"
+  },
+  {
+    "id": "straight-leg-jeans",
+    "name": "Straight Leg Jeans",
+    "categorySlug": "clothing",
+    "priceInCents": 6200,
+    "type": "trousers",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "blue",
+    "colors": [
+      {
+        "id": "straight-leg-jeans:blue",
+        "key": "blue",
+        "name": "Denim Blue",
+        "hex": "#657C92",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "straight-leg-jeans:blue:photo:front",
+            "path": "assets/images/photography/straight-leg-jeans_blue_front.jpg",
+            "kind": "ai_photo",
+            "label": "Denim Blue / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "straight-leg-jeans:blue:photo:side",
+            "path": "assets/images/photography/straight-leg-jeans_blue_side.jpg",
+            "kind": "ai_photo",
+            "label": "Denim Blue / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "straight-leg-jeans:blue:photo:detail",
+            "path": "assets/images/photography/straight-leg-jeans_blue_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Denim Blue / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "straight-leg-jeans:charcoal",
+        "key": "charcoal",
+        "name": "Charcoal",
+        "hex": "#4A4A49",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "straight-leg-jeans:charcoal:photo:front",
+            "path": "assets/images/photography/straight-leg-jeans_charcoal_front.jpg",
+            "kind": "ai_photo",
+            "label": "Charcoal / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/straight-leg-jeans_blue_front.jpg",
+    "description": "Straight Leg Jeans is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "straight-leg-jeans:blue:S",
+        "colorId": "straight-leg-jeans:blue",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "straight-leg-jeans:blue:M",
+        "colorId": "straight-leg-jeans:blue",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "straight-leg-jeans:blue:L",
+        "colorId": "straight-leg-jeans:blue",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "straight-leg-jeans:charcoal:S",
+        "colorId": "straight-leg-jeans:charcoal",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "straight-leg-jeans:charcoal:M",
+        "colorId": "straight-leg-jeans:charcoal",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "straight-leg-jeans:charcoal:L",
+        "colorId": "straight-leg-jeans:charcoal",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "straight-leg-jeans:blue",
+    "images": [],
+    "createdAt": "2026-10-30T00:07:00.000Z"
+  },
+  {
+    "id": "longline-coat",
+    "name": "Longline City Coat",
+    "categorySlug": "clothing",
+    "priceInCents": 12500,
+    "type": "coat",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "camel",
+    "colors": [
+      {
+        "id": "longline-coat:camel",
+        "key": "camel",
+        "name": "Camel",
+        "hex": "#BA936B",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "longline-coat:camel:photo:front",
+            "path": "assets/images/photography/longline-coat_camel_front.jpg",
+            "kind": "ai_photo",
+            "label": "Camel / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "longline-coat:camel:photo:side",
+            "path": "assets/images/photography/longline-coat_camel_side.jpg",
+            "kind": "ai_photo",
+            "label": "Camel / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "longline-coat:camel:photo:detail",
+            "path": "assets/images/photography/longline-coat_camel_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Camel / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "longline-coat:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "longline-coat:black:photo:front",
+            "path": "assets/images/photography/longline-coat_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "assets/images/photography/longline-coat_camel_front.jpg",
+    "description": "Longline City Coat is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "S/M/L are demonstration size labels. Measurements and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "longline-coat:camel:S",
+        "colorId": "longline-coat:camel",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "longline-coat:camel:M",
+        "colorId": "longline-coat:camel",
+        "size": "M",
+        "isAvailable": true
+      },
+      {
+        "id": "longline-coat:camel:L",
+        "colorId": "longline-coat:camel",
+        "size": "L",
+        "isAvailable": true
+      },
+      {
+        "id": "longline-coat:black:S",
+        "colorId": "longline-coat:black",
+        "size": "S",
+        "isAvailable": true
+      },
+      {
+        "id": "longline-coat:black:M",
+        "colorId": "longline-coat:black",
+        "size": "M",
+        "isAvailable": false
+      },
+      {
+        "id": "longline-coat:black:L",
+        "colorId": "longline-coat:black",
+        "size": "L",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "id": "clothing"
+    },
+    "defaultColorId": "longline-coat:camel",
+    "images": [],
+    "createdAt": "2026-10-30T00:08:00.000Z"
+  },
+  {
+    "id": "structured-tote",
+    "name": "Structured Everyday Tote",
+    "categorySlug": "bags",
+    "priceInCents": 7200,
+    "type": "tote",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "brown",
+    "colors": [
+      {
+        "id": "structured-tote:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "structured-tote:brown:photo:front",
+            "path": "assets/images/photography/structured-tote_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "structured-tote:brown:photo:side",
+            "path": "assets/images/photography/structured-tote_brown_side.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "structured-tote:brown:photo:detail",
+            "path": "assets/images/photography/structured-tote_brown_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "structured-tote:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "structured-tote:black:photo:front",
+            "path": "assets/images/photography/structured-tote_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/structured-tote_brown_front.jpg",
+    "description": "Structured Everyday Tote is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "structured-tote:brown:ONE_SIZE",
+        "colorId": "structured-tote:brown",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "structured-tote:black:ONE_SIZE",
+        "colorId": "structured-tote:black",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Bags",
+      "slug": "bags",
+      "id": "bags"
+    },
+    "defaultColorId": "structured-tote:brown",
+    "images": [],
+    "createdAt": "2026-10-30T00:09:00.000Z"
+  },
+  {
+    "id": "crescent-crossbody",
+    "name": "Crescent Crossbody Bag",
+    "categorySlug": "bags",
+    "priceInCents": 5900,
+    "type": "bag",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "cream",
+    "colors": [
+      {
+        "id": "crescent-crossbody:cream",
+        "key": "cream",
+        "name": "Cream",
+        "hex": "#E9DECA",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "crescent-crossbody:cream:photo:front",
+            "path": "assets/images/photography/crescent-crossbody_cream_front.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "crescent-crossbody:cream:photo:side",
+            "path": "assets/images/photography/crescent-crossbody_cream_side.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "crescent-crossbody:cream:photo:detail",
+            "path": "assets/images/photography/crescent-crossbody_cream_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "crescent-crossbody:burgundy",
+        "key": "burgundy",
+        "name": "Burgundy",
+        "hex": "#784349",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "crescent-crossbody:burgundy:photo:front",
+            "path": "assets/images/photography/crescent-crossbody_burgundy_front.jpg",
+            "kind": "ai_photo",
+            "label": "Burgundy / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/crescent-crossbody_cream_front.jpg",
+    "description": "Crescent Crossbody Bag is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "crescent-crossbody:cream:ONE_SIZE",
+        "colorId": "crescent-crossbody:cream",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "crescent-crossbody:burgundy:ONE_SIZE",
+        "colorId": "crescent-crossbody:burgundy",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Bags",
+      "slug": "bags",
+      "id": "bags"
+    },
+    "defaultColorId": "crescent-crossbody:cream",
+    "images": [],
+    "createdAt": "2026-10-30T00:10:00.000Z"
+  },
+  {
+    "id": "mini-evening-bag",
+    "name": "Mini Evening Bag",
+    "categorySlug": "bags",
+    "priceInCents": 4800,
+    "type": "bag",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "mini-evening-bag:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "mini-evening-bag:black:photo:front",
+            "path": "assets/images/photography/mini-evening-bag_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "mini-evening-bag:black:photo:side",
+            "path": "assets/images/photography/mini-evening-bag_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "mini-evening-bag:black:photo:detail",
+            "path": "assets/images/photography/mini-evening-bag_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "mini-evening-bag:rose",
+        "key": "rose",
+        "name": "Dusty Rose",
+        "hex": "#B88783",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "mini-evening-bag:rose:photo:front",
+            "path": "assets/images/photography/mini-evening-bag_rose_front.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/mini-evening-bag_black_front.jpg",
+    "description": "Mini Evening Bag is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "mini-evening-bag:black:ONE_SIZE",
+        "colorId": "mini-evening-bag:black",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "mini-evening-bag:rose:ONE_SIZE",
+        "colorId": "mini-evening-bag:rose",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Bags",
+      "slug": "bags",
+      "id": "bags"
+    },
+    "defaultColorId": "mini-evening-bag:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:11:00.000Z"
+  },
+  {
+    "id": "classic-loafers",
+    "name": "Classic City Loafers",
+    "categorySlug": "shoes",
+    "priceInCents": 8900,
+    "type": "loafers",
+    "isDemo": true,
+    "isFeatured": true,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "classic-loafers:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "classic-loafers:black:photo:front",
+            "path": "assets/images/photography/classic-loafers_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "classic-loafers:black:photo:side",
+            "path": "assets/images/photography/classic-loafers_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "classic-loafers:black:photo:detail",
+            "path": "assets/images/photography/classic-loafers_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "classic-loafers:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "classic-loafers:brown:photo:front",
+            "path": "assets/images/photography/classic-loafers_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "EU_36",
+      "EU_37",
+      "EU_38",
+      "EU_39",
+      "EU_40",
+      "EU_41",
+      "EU_42"
+    ],
+    "image": "assets/images/photography/classic-loafers_black_front.jpg",
+    "description": "Classic City Loafers is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "EU 36-42 are demonstration footwear labels, not verified measurements or a fit guarantee.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "classic-loafers:black:EU_36",
+        "colorId": "classic-loafers:black",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_37",
+        "colorId": "classic-loafers:black",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_38",
+        "colorId": "classic-loafers:black",
+        "size": "EU_38",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_39",
+        "colorId": "classic-loafers:black",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_40",
+        "colorId": "classic-loafers:black",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_41",
+        "colorId": "classic-loafers:black",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:black:EU_42",
+        "colorId": "classic-loafers:black",
+        "size": "EU_42",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_36",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_37",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_38",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_38",
+        "isAvailable": false
+      },
+      {
+        "id": "classic-loafers:brown:EU_39",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_40",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_41",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "classic-loafers:brown:EU_42",
+        "colorId": "classic-loafers:brown",
+        "size": "EU_42",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Shoes",
+      "slug": "shoes",
+      "id": "shoes"
+    },
+    "defaultColorId": "classic-loafers:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:12:00.000Z"
+  },
+  {
+    "id": "court-sneakers",
+    "name": "Everyday Court Sneakers",
+    "categorySlug": "shoes",
+    "priceInCents": 7600,
+    "type": "sneakers",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "white",
+    "colors": [
+      {
+        "id": "court-sneakers:white",
+        "key": "white",
+        "name": "White",
+        "hex": "#F1EFE9",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "court-sneakers:white:photo:front",
+            "path": "assets/images/photography/court-sneakers_white_front.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "court-sneakers:white:photo:side",
+            "path": "assets/images/photography/court-sneakers_white_side.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "court-sneakers:white:photo:detail",
+            "path": "assets/images/photography/court-sneakers_white_detail.jpg",
+            "kind": "ai_photo",
+            "label": "White / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "court-sneakers:sand",
+        "key": "sand",
+        "name": "Sand",
+        "hex": "#B6A386",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "court-sneakers:sand:photo:front",
+            "path": "assets/images/photography/court-sneakers_sand_front.jpg",
+            "kind": "ai_photo",
+            "label": "Sand / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "EU_36",
+      "EU_37",
+      "EU_38",
+      "EU_39",
+      "EU_40",
+      "EU_41",
+      "EU_42"
+    ],
+    "image": "assets/images/photography/court-sneakers_white_front.jpg",
+    "description": "Everyday Court Sneakers is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "EU 36-42 are demonstration footwear labels, not verified measurements or a fit guarantee.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "court-sneakers:white:EU_36",
+        "colorId": "court-sneakers:white",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_37",
+        "colorId": "court-sneakers:white",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_38",
+        "colorId": "court-sneakers:white",
+        "size": "EU_38",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_39",
+        "colorId": "court-sneakers:white",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_40",
+        "colorId": "court-sneakers:white",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_41",
+        "colorId": "court-sneakers:white",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:white:EU_42",
+        "colorId": "court-sneakers:white",
+        "size": "EU_42",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_36",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_37",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_38",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_38",
+        "isAvailable": false
+      },
+      {
+        "id": "court-sneakers:sand:EU_39",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_40",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_41",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "court-sneakers:sand:EU_42",
+        "colorId": "court-sneakers:sand",
+        "size": "EU_42",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Shoes",
+      "slug": "shoes",
+      "id": "shoes"
+    },
+    "defaultColorId": "court-sneakers:white",
+    "images": [],
+    "createdAt": "2026-10-30T00:13:00.000Z"
+  },
+  {
+    "id": "slingback-flats",
+    "name": "Slingback Ballet Flats",
+    "categorySlug": "shoes",
+    "priceInCents": 6800,
+    "type": "flats",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "rose",
+    "colors": [
+      {
+        "id": "slingback-flats:rose",
+        "key": "rose",
+        "name": "Dusty Rose",
+        "hex": "#B88783",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "slingback-flats:rose:photo:front",
+            "path": "assets/images/photography/slingback-flats_rose_front.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "slingback-flats:rose:photo:side",
+            "path": "assets/images/photography/slingback-flats_rose_side.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "slingback-flats:rose:photo:detail",
+            "path": "assets/images/photography/slingback-flats_rose_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Dusty Rose / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "slingback-flats:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "slingback-flats:black:photo:front",
+            "path": "assets/images/photography/slingback-flats_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "EU_36",
+      "EU_37",
+      "EU_38",
+      "EU_39",
+      "EU_40",
+      "EU_41",
+      "EU_42"
+    ],
+    "image": "assets/images/photography/slingback-flats_rose_front.jpg",
+    "description": "Slingback Ballet Flats is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "EU 36-42 are demonstration footwear labels, not verified measurements or a fit guarantee.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "slingback-flats:rose:EU_36",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_37",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_38",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_38",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_39",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_40",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_41",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:rose:EU_42",
+        "colorId": "slingback-flats:rose",
+        "size": "EU_42",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_36",
+        "colorId": "slingback-flats:black",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_37",
+        "colorId": "slingback-flats:black",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_38",
+        "colorId": "slingback-flats:black",
+        "size": "EU_38",
+        "isAvailable": false
+      },
+      {
+        "id": "slingback-flats:black:EU_39",
+        "colorId": "slingback-flats:black",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_40",
+        "colorId": "slingback-flats:black",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_41",
+        "colorId": "slingback-flats:black",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "slingback-flats:black:EU_42",
+        "colorId": "slingback-flats:black",
+        "size": "EU_42",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Shoes",
+      "slug": "shoes",
+      "id": "shoes"
+    },
+    "defaultColorId": "slingback-flats:rose",
+    "images": [],
+    "createdAt": "2026-10-30T00:14:00.000Z"
+  },
+  {
+    "id": "ankle-boots",
+    "name": "Essential Ankle Boots",
+    "categorySlug": "shoes",
+    "priceInCents": 10900,
+    "type": "boots",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "ankle-boots:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "ankle-boots:black:photo:front",
+            "path": "assets/images/photography/ankle-boots_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "ankle-boots:black:photo:side",
+            "path": "assets/images/photography/ankle-boots_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "ankle-boots:black:photo:detail",
+            "path": "assets/images/photography/ankle-boots_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "ankle-boots:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "ankle-boots:brown:photo:front",
+            "path": "assets/images/photography/ankle-boots_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "EU_36",
+      "EU_37",
+      "EU_38",
+      "EU_39",
+      "EU_40",
+      "EU_41",
+      "EU_42"
+    ],
+    "image": "assets/images/photography/ankle-boots_black_front.jpg",
+    "description": "Essential Ankle Boots is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "EU 36-42 are demonstration footwear labels, not verified measurements or a fit guarantee.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "ankle-boots:black:EU_36",
+        "colorId": "ankle-boots:black",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_37",
+        "colorId": "ankle-boots:black",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_38",
+        "colorId": "ankle-boots:black",
+        "size": "EU_38",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_39",
+        "colorId": "ankle-boots:black",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_40",
+        "colorId": "ankle-boots:black",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_41",
+        "colorId": "ankle-boots:black",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:black:EU_42",
+        "colorId": "ankle-boots:black",
+        "size": "EU_42",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_36",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_36",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_37",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_37",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_38",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_38",
+        "isAvailable": false
+      },
+      {
+        "id": "ankle-boots:brown:EU_39",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_39",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_40",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_40",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_41",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_41",
+        "isAvailable": true
+      },
+      {
+        "id": "ankle-boots:brown:EU_42",
+        "colorId": "ankle-boots:brown",
+        "size": "EU_42",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Shoes",
+      "slug": "shoes",
+      "id": "shoes"
+    },
+    "defaultColorId": "ankle-boots:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:15:00.000Z"
+  },
+  {
+    "id": "sculpted-hoops",
+    "name": "Sculpted Hoop Earrings",
+    "categorySlug": "jewelry",
+    "priceInCents": 2900,
+    "type": "earrings",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "gold",
+    "colors": [
+      {
+        "id": "sculpted-hoops:gold",
+        "key": "gold",
+        "name": "Gold tone",
+        "hex": "#B69B57",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "sculpted-hoops:gold:photo:front",
+            "path": "assets/images/photography/sculpted-hoops_gold_front.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "sculpted-hoops:gold:photo:side",
+            "path": "assets/images/photography/sculpted-hoops_gold_side.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "sculpted-hoops:gold:photo:detail",
+            "path": "assets/images/photography/sculpted-hoops_gold_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "sculpted-hoops:silver",
+        "key": "silver",
+        "name": "Silver tone",
+        "hex": "#A8ACB0",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "sculpted-hoops:silver:photo:front",
+            "path": "assets/images/photography/sculpted-hoops_silver_front.jpg",
+            "kind": "ai_photo",
+            "label": "Silver tone / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/sculpted-hoops_gold_front.jpg",
+    "description": "Sculpted Hoop Earrings is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "sculpted-hoops:gold:ONE_SIZE",
+        "colorId": "sculpted-hoops:gold",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "sculpted-hoops:silver:ONE_SIZE",
+        "colorId": "sculpted-hoops:silver",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "id": "jewelry"
+    },
+    "defaultColorId": "sculpted-hoops:gold",
+    "images": [],
+    "createdAt": "2026-10-30T00:16:00.000Z"
+  },
+  {
+    "id": "pendant-necklace",
+    "name": "Minimal Pendant Necklace",
+    "categorySlug": "jewelry",
+    "priceInCents": 3400,
+    "type": "necklace",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "gold",
+    "colors": [
+      {
+        "id": "pendant-necklace:gold",
+        "key": "gold",
+        "name": "Gold tone",
+        "hex": "#B69B57",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "pendant-necklace:gold:photo:front",
+            "path": "assets/images/photography/pendant-necklace_gold_front.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "pendant-necklace:gold:photo:side",
+            "path": "assets/images/photography/pendant-necklace_gold_side.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "pendant-necklace:gold:photo:detail",
+            "path": "assets/images/photography/pendant-necklace_gold_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/pendant-necklace_gold_front.jpg",
+    "description": "Minimal Pendant Necklace is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "pendant-necklace:gold:ONE_SIZE",
+        "colorId": "pendant-necklace:gold",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "id": "jewelry"
+    },
+    "defaultColorId": "pendant-necklace:gold",
+    "images": [],
+    "createdAt": "2026-10-30T00:17:00.000Z"
+  },
+  {
+    "id": "chain-bracelet",
+    "name": "Modern Chain Bracelet",
+    "categorySlug": "jewelry",
+    "priceInCents": 2700,
+    "type": "bracelet",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "silver",
+    "colors": [
+      {
+        "id": "chain-bracelet:silver",
+        "key": "silver",
+        "name": "Silver tone",
+        "hex": "#A8ACB0",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "chain-bracelet:silver:photo:front",
+            "path": "assets/images/photography/chain-bracelet_silver_front.jpg",
+            "kind": "ai_photo",
+            "label": "Silver tone / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "chain-bracelet:silver:photo:side",
+            "path": "assets/images/photography/chain-bracelet_silver_side.jpg",
+            "kind": "ai_photo",
+            "label": "Silver tone / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "chain-bracelet:silver:photo:detail",
+            "path": "assets/images/photography/chain-bracelet_silver_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Silver tone / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "chain-bracelet:gold",
+        "key": "gold",
+        "name": "Gold tone",
+        "hex": "#B69B57",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "chain-bracelet:gold:photo:front",
+            "path": "assets/images/photography/chain-bracelet_gold_front.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/chain-bracelet_silver_front.jpg",
+    "description": "Modern Chain Bracelet is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "chain-bracelet:silver:ONE_SIZE",
+        "colorId": "chain-bracelet:silver",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "chain-bracelet:gold:ONE_SIZE",
+        "colorId": "chain-bracelet:gold",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "id": "jewelry"
+    },
+    "defaultColorId": "chain-bracelet:silver",
+    "images": [],
+    "createdAt": "2026-10-30T00:18:00.000Z"
+  },
+  {
+    "id": "stacking-ring-set",
+    "name": "Sculptural Ring Set",
+    "categorySlug": "jewelry",
+    "priceInCents": 3100,
+    "type": "rings",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "gold",
+    "colors": [
+      {
+        "id": "stacking-ring-set:gold",
+        "key": "gold",
+        "name": "Gold tone",
+        "hex": "#B69B57",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "stacking-ring-set:gold:photo:front",
+            "path": "assets/images/photography/stacking-ring-set_gold_front.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "stacking-ring-set:gold:photo:side",
+            "path": "assets/images/photography/stacking-ring-set_gold_side.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "stacking-ring-set:gold:photo:detail",
+            "path": "assets/images/photography/stacking-ring-set_gold_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Gold tone / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/stacking-ring-set_gold_front.jpg",
+    "description": "Sculptural Ring Set is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "stacking-ring-set:gold:ONE_SIZE",
+        "colorId": "stacking-ring-set:gold",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "id": "jewelry"
+    },
+    "defaultColorId": "stacking-ring-set:gold",
+    "images": [],
+    "createdAt": "2026-10-30T00:19:00.000Z"
+  },
+  {
+    "id": "printed-scarf",
+    "name": "Geometric Square Scarf",
+    "categorySlug": "accessories",
+    "priceInCents": 2500,
+    "type": "scarf",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "navy",
+    "colors": [
+      {
+        "id": "printed-scarf:navy",
+        "key": "navy",
+        "name": "Navy",
+        "hex": "#29384C",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "printed-scarf:navy:photo:front",
+            "path": "assets/images/photography/printed-scarf_navy_front.jpg",
+            "kind": "ai_photo",
+            "label": "Navy / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "printed-scarf:navy:photo:side",
+            "path": "assets/images/photography/printed-scarf_navy_side.jpg",
+            "kind": "ai_photo",
+            "label": "Navy / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "printed-scarf:navy:photo:detail",
+            "path": "assets/images/photography/printed-scarf_navy_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Navy / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "printed-scarf:olive",
+        "key": "olive",
+        "name": "Olive",
+        "hex": "#7D8164",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "printed-scarf:olive:photo:front",
+            "path": "assets/images/photography/printed-scarf_olive_front.jpg",
+            "kind": "ai_photo",
+            "label": "Olive / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/printed-scarf_navy_front.jpg",
+    "description": "Geometric Square Scarf is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "printed-scarf:navy:ONE_SIZE",
+        "colorId": "printed-scarf:navy",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "printed-scarf:olive:ONE_SIZE",
+        "colorId": "printed-scarf:olive",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Accessories",
+      "slug": "accessories",
+      "id": "accessories"
+    },
+    "defaultColorId": "printed-scarf:navy",
+    "images": [],
+    "createdAt": "2026-10-30T00:20:00.000Z"
+  },
+  {
+    "id": "slim-belt",
+    "name": "Minimal Everyday Belt",
+    "categorySlug": "accessories",
+    "priceInCents": 3200,
+    "type": "belt",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "slim-belt:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "slim-belt:black:photo:front",
+            "path": "assets/images/photography/slim-belt_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "slim-belt:black:photo:side",
+            "path": "assets/images/photography/slim-belt_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "slim-belt:black:photo:detail",
+            "path": "assets/images/photography/slim-belt_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "slim-belt:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "slim-belt:brown:photo:front",
+            "path": "assets/images/photography/slim-belt_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/slim-belt_black_front.jpg",
+    "description": "Minimal Everyday Belt is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "slim-belt:black:ONE_SIZE",
+        "colorId": "slim-belt:black",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "slim-belt:brown:ONE_SIZE",
+        "colorId": "slim-belt:brown",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Accessories",
+      "slug": "accessories",
+      "id": "accessories"
+    },
+    "defaultColorId": "slim-belt:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:21:00.000Z"
+  },
+  {
+    "id": "frame-sunglasses",
+    "name": "Sculpted Frame Sunglasses",
+    "categorySlug": "accessories",
+    "priceInCents": 3900,
+    "type": "glasses",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "black",
+    "colors": [
+      {
+        "id": "frame-sunglasses:black",
+        "key": "black",
+        "name": "Black",
+        "hex": "#252320",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "frame-sunglasses:black:photo:front",
+            "path": "assets/images/photography/frame-sunglasses_black_front.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "frame-sunglasses:black:photo:side",
+            "path": "assets/images/photography/frame-sunglasses_black_side.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "frame-sunglasses:black:photo:detail",
+            "path": "assets/images/photography/frame-sunglasses_black_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Black / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "frame-sunglasses:brown",
+        "key": "brown",
+        "name": "Brown",
+        "hex": "#76513C",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "frame-sunglasses:brown:photo:front",
+            "path": "assets/images/photography/frame-sunglasses_brown_front.jpg",
+            "kind": "ai_photo",
+            "label": "Brown / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/frame-sunglasses_black_front.jpg",
+    "description": "Sculpted Frame Sunglasses is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "frame-sunglasses:black:ONE_SIZE",
+        "colorId": "frame-sunglasses:black",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "frame-sunglasses:brown:ONE_SIZE",
+        "colorId": "frame-sunglasses:brown",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Accessories",
+      "slug": "accessories",
+      "id": "accessories"
+    },
+    "defaultColorId": "frame-sunglasses:black",
+    "images": [],
+    "createdAt": "2026-10-30T00:22:00.000Z"
+  },
+  {
+    "id": "ribbed-beanie",
+    "name": "Ribbed Everyday Beanie",
+    "categorySlug": "accessories",
+    "priceInCents": 2200,
+    "type": "beanie",
+    "isDemo": true,
+    "isFeatured": false,
+    "defaultColorKey": "cream",
+    "colors": [
+      {
+        "id": "ribbed-beanie:cream",
+        "key": "cream",
+        "name": "Cream",
+        "hex": "#E9DECA",
+        "sortOrder": 0,
+        "images": [
+          {
+            "id": "ribbed-beanie:cream:photo:front",
+            "path": "assets/images/photography/ribbed-beanie_cream_front.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / front",
+            "sortOrder": 0
+          },
+          {
+            "id": "ribbed-beanie:cream:photo:side",
+            "path": "assets/images/photography/ribbed-beanie_cream_side.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / side",
+            "sortOrder": 1
+          },
+          {
+            "id": "ribbed-beanie:cream:photo:detail",
+            "path": "assets/images/photography/ribbed-beanie_cream_detail.jpg",
+            "kind": "ai_photo",
+            "label": "Cream / AI-generated demo product / detail",
+            "sortOrder": 2
+          }
+        ]
+      },
+      {
+        "id": "ribbed-beanie:charcoal",
+        "key": "charcoal",
+        "name": "Charcoal",
+        "hex": "#4A4A49",
+        "sortOrder": 1,
+        "images": [
+          {
+            "id": "ribbed-beanie:charcoal:photo:front",
+            "path": "assets/images/photography/ribbed-beanie_charcoal_front.jpg",
+            "kind": "ai_photo",
+            "label": "Charcoal / AI-generated demo product / front",
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "availableSizes": [
+      "ONE_SIZE"
+    ],
+    "image": "assets/images/photography/ribbed-beanie_cream_front.jpg",
+    "description": "Ribbed Everyday Beanie is a sample styling piece in the MODA portfolio assortment. Prices and color/size availability are demonstration data, not real store inventory.",
+    "materials": "Sample catalog: manufacturer composition and construction have not been independently verified.",
+    "careInstructions": "No manufacturer care specification is supplied. For a real item, consult its actual care label.",
+    "sizeAndFit": "One Size is a variant label. Dimensions, capacity and fit have not been verified.",
+    "informationIsSample": true,
+    "variants": [
+      {
+        "id": "ribbed-beanie:cream:ONE_SIZE",
+        "colorId": "ribbed-beanie:cream",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      },
+      {
+        "id": "ribbed-beanie:charcoal:ONE_SIZE",
+        "colorId": "ribbed-beanie:charcoal",
+        "size": "ONE_SIZE",
+        "isAvailable": true
+      }
+    ],
+    "currency": "USD",
+    "category": {
+      "name": "Accessories",
+      "slug": "accessories",
+      "id": "accessories"
+    },
+    "defaultColorId": "ribbed-beanie:cream",
+    "images": [],
+    "createdAt": "2026-10-30T00:23:00.000Z"
+  }
+]

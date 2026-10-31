@@ -1,0 +1,256 @@
+generator client {
+  // Generates runnable JavaScript; application code requires no TS toolchain.
+  provider   = "prisma-client-js"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ProductSizeValue {
+  S
+  M
+  L
+  ONE_SIZE
+  EU_36
+  EU_37
+  EU_38
+  EU_39
+  EU_40
+  EU_41
+  EU_42
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  COD
+  PAYMOB_CARD
+  PAYMOB_WALLET
+}
+
+enum PaymentStatus {
+  UNPAID
+  PENDING
+  PAID
+  FAILED
+  CANCELLED
+  UNKNOWN
+}
+
+model User {
+  id                    String    @id @default(uuid()) @db.Uuid
+  email                 String    @unique @db.VarChar(254)
+  name                  String    @db.VarChar(120)
+  passwordHash          String?   @db.VarChar(60)
+  authVersion           Int       @default(0)
+  resetTokenHash        String?   @unique @db.Char(64)
+  resetExpiresAt        DateTime?
+  emailVerifiedAt       DateTime?
+  verificationHash      String?   @db.Char(64)
+  verificationExpiresAt DateTime?
+  verificationSentAt    DateTime?
+  verificationAttempts  Int       @default(0)
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  orders                Order[]
+  shippingAddresses     ShippingAddress[]
+}
+
+model ShippingAddress {
+  id              String @id @default(uuid()) @db.Uuid
+  userId          String @db.Uuid
+  user            User @relation(fields: [userId], references: [id], onDelete: Restrict)
+  fullName        String @db.VarChar(120)
+  mobile          String @db.VarChar(30)
+  governorate     String @db.VarChar(100)
+  city            String @db.VarChar(100)
+  streetAddress   String @db.VarChar(500)
+  buildingDetails String @db.VarChar(200)
+  deliveryNotes   String @default("") @db.VarChar(1000)
+  isDefault       Boolean @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([userId])
+}
+
+model Category {
+  id        String    @id @default(uuid()) @db.Uuid
+  slug      String    @unique @db.VarChar(80)
+  name      String    @db.VarChar(80)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  products  Product[]
+}
+
+model Product {
+  id           String        @id @default(uuid()) @db.VarChar(80)
+  name         String        @db.VarChar(160)
+  image        String        @db.VarChar(512)
+  priceInCents Int
+  description String? @db.VarChar(2000)
+  materials String? @db.VarChar(1000)
+  careInstructions String? @db.VarChar(1000)
+  sizeAndFit String? @db.VarChar(1000)
+  informationIsSample Boolean @default(false)
+  currency     String        @default("USD") @db.Char(3)
+  isActive     Boolean       @default(true)
+  categoryId   String        @db.Uuid
+  category     Category      @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  isDemo Boolean @default(false)
+  isFeatured Boolean @default(false)
+  defaultColorKey String? @db.VarChar(60)
+  colors ProductColor[]
+  variants ProductVariant[]
+  media ProductMedia[]
+  sizes        ProductSize[]
+  orderItems   OrderItem[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  @@index([categoryId, isActive])
+}
+
+model ProductSize {
+  isAvailable Boolean @default(true)
+  id        String           @id @default(uuid()) @db.Uuid
+  productId String           @db.VarChar(80)
+  size      ProductSizeValue
+  product   Product          @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, size])
+}
+
+model ProductColor {
+  id String @id @db.VarChar(160)
+  productId String @db.VarChar(80)
+  key String @db.VarChar(60)
+  name String @db.VarChar(80)
+  hex String @db.Char(7)
+  sortOrder Int @default(0)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+  variants ProductVariant[]
+  media ProductMedia[]
+  @@unique([productId, key])
+}
+
+model ProductVariant {
+  id String @id @db.VarChar(160)
+  productId String @db.VarChar(80)
+  colorId String? @db.VarChar(160)
+  size ProductSizeValue
+  isAvailable Boolean @default(true)
+  priceInCents Int?
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+  color ProductColor? @relation(fields: [colorId], references: [id], onDelete: Restrict)
+  @@unique([productId, colorId, size])
+  @@index([productId, isAvailable])
+}
+
+model ProductMedia {
+  id String @id @db.VarChar(180)
+  productId String @db.VarChar(80)
+  colorId String? @db.VarChar(160)
+  path String @db.VarChar(512)
+  kind String @default("photo") @db.VarChar(20)
+  label String @db.VarChar(200)
+  sortOrder Int @default(0)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+  color ProductColor? @relation(fields: [colorId], references: [id], onDelete: Restrict)
+  @@index([productId, colorId, sortOrder])
+}
+
+model Order {
+  id                 String           @id @default(uuid()) @db.Uuid
+  userId             String           @db.Uuid
+  user               User             @relation(fields: [userId], references: [id], onDelete: Restrict)
+  status             OrderStatus      @default(PENDING)
+  currency           String           @default("USD") @db.Char(3)
+  totalInCents       Int
+  subtotalInCents    Int              @default(0)
+  shippingFeeInCents Int              @default(0)
+  shippingSnapshot   Json?
+  shippingName       String?          @db.VarChar(120)
+  shippingPhone      String?          @db.VarChar(30)
+  shippingAddress    String?          @db.VarChar(500)
+  shippingCity       String?          @db.VarChar(100)
+  deliveryNotes      String?          @db.VarChar(1000)
+  paymentMethod      PaymentMethod    @default(COD)
+  paymentStatus      PaymentStatus    @default(UNPAID)
+  clientRequestId    String?          @db.Uuid
+  requestHash        String?          @db.Char(64)
+  paymentAttempts    PaymentAttempt[]
+  events             OrderEvent[]
+  items              OrderItem[]
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+
+  @@unique([userId, clientRequestId])
+  @@index([userId, createdAt])
+  @@index([status])
+}
+
+model PaymentAttempt {
+  id                 String         @id @default(uuid()) @db.Uuid
+  orderId            String         @db.Uuid
+  order              Order          @relation(fields: [orderId], references: [id], onDelete: Restrict)
+  status             PaymentStatus  @default(PENDING)
+  integrationId      Int
+  providerOrderId    String?        @unique @db.VarChar(80)
+  intentionId        String?        @unique @db.VarChar(160)
+  checkoutCiphertext String?
+  expiresAt          DateTime
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+  callbacks          PaymentEvent[]
+
+  @@index([orderId])
+}
+
+model PaymentEvent {
+  id            String         @id @db.Char(64)
+  attemptId     String         @db.Uuid
+  attempt       PaymentAttempt @relation(fields: [attemptId], references: [id], onDelete: Restrict)
+  transactionId String         @db.VarChar(80)
+  status        PaymentStatus
+  createdAt     DateTime       @default(now())
+
+  @@index([transactionId])
+}
+
+model OrderEvent {
+  id        String   @id @default(uuid()) @db.Uuid
+  orderId   String   @db.Uuid
+  order     Order    @relation(fields: [orderId], references: [id], onDelete: Restrict)
+  eventKey  String   @unique @db.VarChar(160)
+  kind      String   @db.VarChar(40)
+  createdAt DateTime @default(now())
+}
+
+model OrderItem {
+  id               String           @id @default(uuid()) @db.Uuid
+  orderId          String           @db.Uuid
+  productId        String           @db.VarChar(80)
+  variantId String? @db.VarChar(160)
+  colorId String? @db.VarChar(160)
+  colorName String? @db.VarChar(80)
+  productImage     String? @db.VarChar(512)
+  productName      String           @db.VarChar(160)
+  size             ProductSizeValue
+  unitPriceInCents Int
+  quantity         Int
+  order            Order            @relation(fields: [orderId], references: [id], onDelete: Restrict)
+  product          Product          @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  @@index([orderId])
+  @@index([productId])
+}

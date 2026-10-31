@@ -1,0 +1,112 @@
+{
+  "reviewDate": "2026-10-31",
+  "scope": "Asset replacement and documented permission bases; not a legal opinion or a new license.",
+  "evidence": [
+    {
+      "url": "https://openai.com/policies/terms-of-use/",
+      "section": "Content: ownership, input responsibility and similarity",
+      "finding": "Rights in output assigned as between user and OpenAI, to extent permitted by law; not rights in third-party output."
+    },
+    {
+      "url": "https://openai.com/policies/services-agreement/",
+      "section": "4.1, 4.3, 4.4",
+      "finding": "Customer output assignment with customer input/use responsibilities and non-uniqueness limitations."
+    },
+    {
+      "url": "https://openai.com/policies/sharing-publication-policy/",
+      "section": "Social media, livestreaming and demonstrations",
+      "finding": "Manual review and conspicuous AI disclosure; not a third-party clearance warranty."
+    }
+  ],
+  "replacements": [
+    {
+      "path": "assets/images/moda_banner.png",
+      "previousOrigin": "Pre-existing locally supplied PNG. No original author, source URL or redistribution license found.",
+      "previousRedistributionPermission": "not-established; retired bytes excluded from publication",
+      "previousSha256": "00f23d1ee33bf6cbe978340c4a251f9cdc823e74c73fe97f5eca346bb3491f10",
+      "source": "OpenAI built-in image_gen, new text-only original and self-reference edit",
+      "sourceOutput": "exec-62c69a82-5e3f-4f24-b4f4-707365d1ed4e.png",
+      "initialOutput": "exec-75db5437-ddc5-4791-beb1-537246a5c863.png",
+      "initialPrompt": "Create a brand-new original photorealistic luxury fashion editorial hero, landscape panorama exactly 3072 by 1024 pixels (3:1). No input or reference images. A quiet warm ivory plaster studio with soft late-afternoon sunlight and gentle long architectural shadows. At about 62 percent of image width: a sculptural cream upholstered chair with an unbranded ivory tailored blazer naturally draped over its back, soft cream trousers folded on the seat, and a plain small black leather shoulder bag on the floor beside it. Elegant, subtle texture and realistic fabric details; refined editorial photography, natural low contrast, beige/cream/charcoal palette. Keep the left 42 percent as uncluttered ivory wall/negative space for app copy rendered separately. Keep the main wardrobe grouping within the central-right portion and readable when the panorama is cropped to a near-square mobile frame. No people, faces, bodies, mannequins, text, lettering, brand logos, identifiable designer motifs, signatures or watermarks. Do not imitate a named artist, brand, existing photograph or fashion campaign. This is fictional generic demonstration merchandise, not a depiction of an actual commercial product.",
+      "editPrompt": "Edit only this newly generated original fictional fashion still life. Remove the small dangling paper tag/label hanging near the bag and chair, including all tiny marks on that tag, replacing it with the continuous underlying fabric/background. Preserve the entire scene, product shapes, warm ivory colors, lighting, sunlight/shadows, camera framing, uncluttered left text area, and exact panoramic 3:1 aspect ratio. No additional objects, text, signatures, labels or logos. No people or faces. This input is the original text-only output generated for this project, not an outside photograph.",
+      "inputImages": "None for initial generation; only that new output for edit. No legacy/reference/Figma image submitted.",
+      "sha256": "32c2de33570233aa4c25c40940de0cfb2386dd1e7784f1f40577e1c82ef64307",
+      "width": 2172,
+      "height": 724,
+      "permissionStatus": "OpenAI output-rights assignment documented separately from generation; owner must confirm applicable account/customer authority and input/third-party rights. No blanket clearance or reuse license is asserted."
+    },
+    {
+      "path": "assets/images/knit_sweater.png",
+      "previousOrigin": "Pre-existing locally supplied PNG. No original author, source URL or redistribution license found.",
+      "previousRedistributionPermission": "not-established; retired bytes excluded from publication",
+      "previousSha256": "f3247ba2a34ac3519421698e0df0aa9ab970d7a66b8bde3f42556dfcae8ebd66",
+      "source": "assets/images/photography/knit-sweater_cream_front.jpg",
+      "sourceOutput": "exec-b994877f-6209-40de-8548-56e096971589.png",
+      "sourceSha256": "fe9e252539248b36af5fdadf04d261edb858b9a0e6c4994a6dd3adc3427f9b42",
+      "operation": "Lossless JPEG-to-PNG encoding, original raster dimensions; no crop, resize or filter",
+      "sha256": "120d22ae937eea30a3f2aa814f44e16d070933b378f951bf91e836c3714ea73a",
+      "width": 720,
+      "height": 960,
+      "permissionStatus": "OpenAI output-rights assignment documented separately from generation; owner must confirm applicable account/customer authority and input/third-party rights. No blanket clearance or reuse license is asserted."
+    },
+    {
+      "path": "assets/images/wide_leg_trousers.png",
+      "previousOrigin": "Pre-existing locally supplied PNG. No original author, source URL or redistribution license found.",
+      "previousRedistributionPermission": "not-established; retired bytes excluded from publication",
+      "previousSha256": "4e0ef435372d10d60e949f60bf55edf6d96a31c1e73dc62c18d1c9f31ba047ab",
+      "source": "assets/images/photography/wide-leg-trousers_sand_front.jpg",
+      "sourceOutput": "exec-a8a21555-a6ff-45e2-8a73-b40b0e760429.png",
+      "sourceSha256": "676ed2880de54b03a74142761d6b5f9b8bde886ee5c0f8194a93ac8c2007ca6f",
+      "operation": "Lossless JPEG-to-PNG encoding, original raster dimensions; no crop, resize or filter",
+      "sha256": "f27695dc4d4733cc2e89f5da0b7f76b19a72ab2c4d72d8d0d50752de5ac47a32",
+      "width": 720,
+      "height": 960,
+      "permissionStatus": "OpenAI output-rights assignment documented separately from generation; owner must confirm applicable account/customer authority and input/third-party rights. No blanket clearance or reuse license is asserted."
+    },
+    {
+      "path": "assets/images/tailored_blazer.png",
+      "previousOrigin": "Pre-existing locally supplied PNG. No original author, source URL or redistribution license found.",
+      "previousRedistributionPermission": "not-established; retired bytes excluded from publication",
+      "previousSha256": "214e0dea4d5de64c9a4d6563f32063c9d8d02ccdfdcadb7615cfeffbbc758f40",
+      "source": "assets/images/photography/tailored-blazer_black_front.jpg",
+      "sourceOutput": "exec-e4b143d7-1f7d-43ad-88bd-02d08395925e.png",
+      "sourceSha256": "236e4618406b02b965dd1a8017cf2abda51946d6b3002faa25053060350235db",
+      "operation": "Lossless JPEG-to-PNG encoding, original raster dimensions; no crop, resize or filter",
+      "sha256": "2220d94e730e4add64a7f1abe8d28451fd0aca7c7157ab33b19fd8e48e7c25c5",
+      "width": 720,
+      "height": 960,
+      "permissionStatus": "OpenAI output-rights assignment documented separately from generation; owner must confirm applicable account/customer authority and input/third-party rights. No blanket clearance or reuse license is asserted."
+    },
+    {
+      "path": "assets/images/shoulder_bag.png",
+      "previousOrigin": "Pre-existing locally supplied PNG. No original author, source URL or redistribution license found.",
+      "previousRedistributionPermission": "not-established; retired bytes excluded from publication",
+      "previousSha256": "0bd73c521a9ee85e3cc8a3b79ae85c289d3f92a8e38a0a24f9870c6137fc7394",
+      "source": "assets/images/photography/shoulder-bag_black_front.jpg",
+      "sourceOutput": "exec-6a4eea59-657c-4368-8fa6-cb03e69051b6.png",
+      "sourceSha256": "c4cafb54f84821ca10008e3685f443c577f3257ecdcd1502fffa02cd6dd3c62f",
+      "operation": "Lossless JPEG-to-PNG encoding, original raster dimensions; no crop, resize or filter",
+      "sha256": "50ad3fbdaddcf65694052d6d309455d7be253faf6e1a183a6bfcb10ca2830920",
+      "width": 720,
+      "height": 960,
+      "permissionStatus": "OpenAI output-rights assignment documented separately from generation; owner must confirm applicable account/customer authority and input/third-party rights. No blanket clearance or reuse license is asserted."
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "docs/screenshots/home.png",
+      "origin": "Actual Flutter widget-renderer capture at 360x640 logical pixels, 2x pixel ratio; synthetic 24-product catalog, mocked native storage/auth; not a new emulator capture.",
+      "previousSha256": "8a65f2cf93755dd8d5d470b22816666e63d8cc15e16fc14a394cf8347ed42e20",
+      "sha256": "248b6eb03295d0f81948dff10b00d10145c27fc9d54c46b62985415ace459687",
+      "width": 720,
+      "height": 1280,
+      "privateDataReview": "Visually reviewed: no account names/emails/addresses/tokens; no PNG text/EXIF metadata."
+    }
+  ],
+  "ownerApprovalRequired": [
+    "Confirm generation account/customer authority and rights in any earlier reference inputs for the 94 catalog outputs.",
+    "Review generated model imagery; no likeness/model-release clearance is asserted.",
+    "Confirm no protected Figma exports/assets or copied protected expression remain; specific file license not retrievable.",
+    "Approve MODA branding/name use; no trademark clearance search was performed."
+  ]
+}

@@ -1,0 +1,1600 @@
+[
+    {
+        "sourceFrame":  [
+                            0,
+                            0.061111111111111192,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/knit-sweater_cream_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.03888888888888889,
+                              0.17962962962962964,
+                              0.98055555555555551,
+                              0.83148148148148149
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.0051666666666665972,
+                            0.046876543209876553,
+                            0.99244444444444457,
+                            0.88217283950617287
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/knit-sweater_mocha_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.058333333333333334,
+                              0.14629629629629629,
+                              0.94444444444444442,
+                              0.82962962962962961
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wide-leg-trousers_sand_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.19722222222222222,
+                              0.10833333333333334,
+                              0.71666666666666667,
+                              0.92083333333333328
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wide-leg-trousers_charcoal_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.31388888888888888,
+                              0.070833333333333331,
+                              0.73888888888888893,
+                              0.9375
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.067592592592592649,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/tailored-blazer_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.077777777777777779,
+                              0.10740740740740741,
+                              0.95,
+                              0.91666666666666663
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.049722222222222168,
+                            0.094814814814814755,
+                            0.88666666666666683,
+                            0.78814814814814838
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/shoulder-bag_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.1,
+                              0.13703703703703704,
+                              0.88611111111111107,
+                              0.84074074074074079
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.039388888888888807,
+                            0.083777777777777729,
+                            0.92400000000000015,
+                            0.82133333333333347
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/tailored-blazer_camel_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.088888888888888892,
+                              0.1425925925925926,
+                              0.91388888888888886,
+                              0.84629629629629632
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.0416111111111111,
+                            0.053037037037036994,
+                            0.94733333333333347,
+                            0.8420740740740742
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/shoulder-bag_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.1,
+                              0.098148148148148151,
+                              0.93055555555555558,
+                              0.85
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.010222222222222133,
+                            0.077296296296296266,
+                            0.9823333333333335,
+                            0.87318518518518529
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/relaxed-shirt_white_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.077777777777777779,
+                              0.12407407407407407,
+                              0.925,
+                              0.90370370370370368
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.070370370370370416,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/relaxed-shirt_blue_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.08611111111111111,
+                              0.10555555555555556,
+                              0.93888888888888888,
+                              0.924074074074074
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.071296296296296344,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pleated-midi-skirt_sand_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.13055555555555556,
+                              0.11851851851851852,
+                              0.9,
+                              0.912962962962963
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.087962962962963021,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pleated-midi-skirt_navy_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.13055555555555556,
+                              0.12222222222222222,
+                              0.91111111111111109,
+                              0.94259259259259254
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wrap-midi-dress_rose_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.31388888888888888,
+                              0.025,
+                              0.71944444444444444,
+                              0.9770833333333333
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wrap-midi-dress_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.17222222222222222,
+                              0.05,
+                              0.68611111111111112,
+                              0.9604166666666667
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/straight-leg-jeans_blue_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.26111111111111113,
+                              0.11041666666666666,
+                              0.67222222222222228,
+                              0.90208333333333335
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/straight-leg-jeans_charcoal_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.33333333333333331,
+                              0.11666666666666667,
+                              0.80555555555555558,
+                              0.90833333333333333
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/longline-coat_camel_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.11388888888888889,
+                              0.04791666666666667,
+                              0.73055555555555551,
+                              0.95416666666666672
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.069166666666666654,
+                            0.10407407407407399,
+                            0.88666666666666683,
+                            0.78814814814814838
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/structured-tote_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.11666666666666667,
+                              0.15740740740740741,
+                              0.90833333333333333,
+                              0.83888888888888891
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/longline-coat_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.22222222222222221,
+                              0.072916666666666671,
+                              0.72777777777777775,
+                              0.93958333333333333
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.067592592592592649,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/knit-sweater_cream_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.044444444444444446,
+                              0.17777777777777778,
+                              0.98333333333333328,
+                              0.84629629629629632
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/knit-sweater_cream_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.022222222222222223,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wide-leg-trousers_sand_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.19722222222222222,
+                              0.10833333333333334,
+                              0.71111111111111114,
+                              0.90833333333333333
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wide-leg-trousers_sand_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.03888888888888889,
+                              0.98333333333333328,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.060185185185185196,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/tailored-blazer_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.094444444444444442,
+                              0.1,
+                              0.93888888888888888,
+                              0.90925925925925921
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/tailored-blazer_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.97777777777777775,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.058555555555555527,
+                            0.087851851851851848,
+                            0.87733333333333341,
+                            0.77985185185185191
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/shoulder-bag_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.11944444444444445,
+                              0.12962962962962962,
+                              0.875,
+                              0.825925925925926
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/shoulder-bag_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.025,
+                              0,
+                              0.98888888888888893,
+                              0.99444444444444446
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.020055555555555438,
+                            0.080481481481481376,
+                            0.95433333333333359,
+                            0.84829629629629644
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/relaxed-shirt_white_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.14444444444444443,
+                              0.12592592592592591,
+                              0.85,
+                              0.8833333333333333
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/relaxed-shirt_white_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.022222222222222223,
+                              0.018518518518518517,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.068518518518518576,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pleated-midi-skirt_sand_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.14722222222222223,
+                              0.11296296296296296,
+                              0.875,
+                              0.912962962962963
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pleated-midi-skirt_sand_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.046296296296296294,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wrap-midi-dress_rose_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.32222222222222224,
+                              0.058333333333333334,
+                              0.75,
+                              0.95416666666666672
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/wrap-midi-dress_rose_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.95833333333333337,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.043518518518518588,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/straight-leg-jeans_blue_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.22222222222222221,
+                              0.048148148148148148,
+                              0.71944444444444444,
+                              0.92777777777777781
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/straight-leg-jeans_blue_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.033333333333333333,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/longline-coat_camel_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.15555555555555556,
+                              0.0020833333333333333,
+                              0.71666666666666667,
+                              0.94375
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/longline-coat_camel_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/structured-tote_brown_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.060333333333333183,
+                            0.089740740740740677,
+                            0.89600000000000024,
+                            0.79644444444444462
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/structured-tote_brown_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.10833333333333334,
+                              0.1425925925925926,
+                              0.90833333333333333,
+                              0.83333333333333337
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.05911111111111117,
+                            0.0935925925925926,
+                            0.91233333333333333,
+                            0.810962962962963
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/structured-tote_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.11944444444444445,
+                              0.13703703703703704,
+                              0.91111111111111109,
+                              0.86111111111111116
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.017111111111111077,
+                            0.10286419753086418,
+                            0.97688888888888892,
+                            0.86834567901234572
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/crescent-crossbody_cream_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.069444444444444448,
+                              0.31666666666666665,
+                              0.94166666666666665,
+                              0.75740740740740742
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.045277777777777695,
+                            0.08006172839506169,
+                            0.91777777777777791,
+                            0.81580246913580268
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/crescent-crossbody_burgundy_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.094444444444444442,
+                              0.13518518518518519,
+                              0.91388888888888886,
+                              0.84074074074074079
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.023166666666666558,
+                            0.087567901234567813,
+                            0.96755555555555572,
+                            0.86004938271604958
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/mini-evening-bag_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.075,
+                              0.21666666666666667,
+                              0.93888888888888888,
+                              0.81851851851851853
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.030055555555555502,
+                            0.12270370370370369,
+                            0.94266666666666676,
+                            0.837925925925926
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/mini-evening-bag_rose_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.080555555555555561,
+                              0.33148148148148149,
+                              0.92222222222222228,
+                              0.75185185185185188
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.081481481481481557,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/classic-loafers_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.047222222222222221,
+                              0.31481481481481483,
+                              0.975,
+                              0.737037037037037
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.11111111111111116,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/court-sneakers_white_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.027777777777777776,
+                              0.33333333333333331,
+                              0.96388888888888891,
+                              0.77962962962962967
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.004444444444444362,
+                            0.0084567901234567557,
+                            0.99555555555555564,
+                            0.88493827160493843
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/classic-loafers_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.063888888888888884,
+                              0.12592592592592591,
+                              0.95277777777777772,
+                              0.77592592592592591
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.11018518518518523,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/court-sneakers_sand_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.069444444444444448,
+                              0.37777777777777777,
+                              0.97222222222222221,
+                              0.73148148148148151
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.10740740740740747,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slingback-flats_rose_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.052777777777777778,
+                              0.34444444444444444,
+                              0.96666666666666667,
+                              0.7592592592592593
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.096296296296296324,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slingback-flats_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.052777777777777778,
+                              0.362962962962963,
+                              0.97222222222222221,
+                              0.71851851851851856
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.044888888888888756,
+                            0.088469135802469109,
+                            0.95511111111111124,
+                            0.84898765432098777
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ankle-boots_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.1,
+                              0.25925925925925924,
+                              0.95277777777777772,
+                              0.76666666666666672
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.038888888888888751,
+                            0.112037037037037,
+                            0.93333333333333357,
+                            0.82962962962962983
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ankle-boots_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.088888888888888892,
+                              0.27777777777777779,
+                              0.92222222222222228,
+                              0.77592592592592591
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.04622222222222222,
+                            0.10096296296296292,
+                            0.95200000000000007,
+                            0.84622222222222232
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/sculpted-hoops_gold_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.097222222222222224,
+                              0.34629629629629627,
+                              0.94722222222222219,
+                              0.70185185185185184
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.0295555555555555,
+                            0.089851851851851849,
+                            0.95200000000000007,
+                            0.84622222222222232
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/sculpted-hoops_silver_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.080555555555555561,
+                              0.31851851851851853,
+                              0.93055555555555558,
+                              0.70740740740740737
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pendant-necklace_gold_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.055555555555555552,
+                              0,
+                              0.94166666666666665,
+                              0.84259259259259256
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.074074074074074112,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/chain-bracelet_silver_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.061111111111111109,
+                              0.31851851851851853,
+                              0.96111111111111114,
+                              0.71851851851851856
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.053703703703703733,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/chain-bracelet_gold_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.069444444444444448,
+                              0.3,
+                              0.975,
+                              0.6962962962962963
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.14094444444444437,
+                            0.15398765432098763,
+                            0.84311111111111126,
+                            0.74943209876543226
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/stacking-ring-set_gold_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.18611111111111112,
+                              0.30925925925925923,
+                              0.93888888888888888,
+                              0.74814814814814812
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.047222222222222276,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/printed-scarf_navy_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.041666666666666664,
+                              0.12592592592592591,
+                              0.9555555555555556,
+                              0.8574074074074074
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/printed-scarf_olive_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.030555555555555555,
+                              0.1648148148148148,
+                              0.98611111111111116,
+                              0.83518518518518514
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.0013333333333331865,
+                            0.098740740740740643,
+                            0.99866666666666681,
+                            0.88770370370370388
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slim-belt_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.069444444444444448,
+                              0.412962962962963,
+                              0.96111111111111114,
+                              0.67222222222222228
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.011111111111111146,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slim-belt_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.063888888888888884,
+                              0.25185185185185183,
+                              0.96111111111111114,
+                              0.65925925925925921
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.084259259259259325,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/frame-sunglasses_brown_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.027777777777777776,
+                              0.3925925925925926,
+                              0.97777777777777775,
+                              0.66481481481481486
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.0542777777777777,
+                            0.11614814814814811,
+                            0.90533333333333343,
+                            0.80474074074074087
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ribbed-beanie_cream_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.10277777777777777,
+                              0.21111111111111111,
+                              0.91111111111111109,
+                              0.825925925925926
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.032444444444444276,
+                            0.080160493827160437,
+                            0.96755555555555572,
+                            0.86004938271604958
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ribbed-beanie_charcoal_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.08611111111111111,
+                              0.22592592592592592,
+                              0.95,
+                              0.7944444444444444
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.084259259259259325,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/frame-sunglasses_black_front.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.05,
+                              0.39074074074074072,
+                              0.97777777777777775,
+                              0.66666666666666663
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.02038888888888879,
+                            0.094049382716049276,
+                            0.96755555555555572,
+                            0.86004938271604958
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/crescent-crossbody_cream_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.072222222222222215,
+                              0.28888888888888886,
+                              0.93611111111111112,
+                              0.7592592592592593
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/crescent-crossbody_cream_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.027777777777777776,
+                              0.025925925925925925,
+                              0.98888888888888893,
+                              0.97777777777777775
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.043944444444444453,
+                            0.078259259259259251,
+                            0.94266666666666676,
+                            0.837925925925926
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/mini-evening-bag_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.094444444444444442,
+                              0.19259259259259259,
+                              0.93611111111111112,
+                              0.80185185185185182
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/mini-evening-bag_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              0.95925925925925926
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.047222222222222276,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/classic-loafers_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.041666666666666664,
+                              0.32222222222222224,
+                              0.96944444444444444,
+                              0.66111111111111109
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/classic-loafers_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              0.95370370370370372
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.068518518518518576,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/court-sneakers_white_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.041666666666666664,
+                              0.32777777777777778,
+                              0.97222222222222221,
+                              0.69814814814814818
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/court-sneakers_white_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.0092592592592592587,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.089814814814814861,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slingback-flats_rose_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.041666666666666664,
+                              0.3925925925925926,
+                              0.975,
+                              0.67592592592592593
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slingback-flats_rose_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              0.97962962962962963
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.013777777777777667,
+                            0.065382716049382658,
+                            0.98622222222222233,
+                            0.87664197530864207
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ankle-boots_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.077777777777777779,
+                              0.26296296296296295,
+                              0.95833333333333337,
+                              0.74444444444444446
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ankle-boots_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.019444444444444445,
+                              0.012962962962962963,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.034944444444444445,
+                            0.085691358024691341,
+                            0.95511111111111124,
+                            0.84898765432098777
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/sculpted-hoops_gold_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.08611111111111111,
+                              0.32962962962962961,
+                              0.93888888888888888,
+                              0.69074074074074077
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/sculpted-hoops_gold_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.059259259259259262,
+                              0.98888888888888893,
+                              0.90370370370370368
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pendant-necklace_gold_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.10277777777777777,
+                              0,
+                              0.91388888888888886,
+                              0.82962962962962961
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/pendant-necklace_gold_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.019444444444444445,
+                              0,
+                              0.98055555555555551,
+                              0.90555555555555556
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.06296296296296304,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/chain-bracelet_silver_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.055555555555555552,
+                              0.31296296296296294,
+                              0.96111111111111114,
+                              0.70185185185185184
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/chain-bracelet_silver_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.085185185185185183,
+                              0.98888888888888893,
+                              0.8481481481481481
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.17088888888888892,
+                            0.16177777777777771,
+                            0.80266666666666675,
+                            0.71348148148148161
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/stacking-ring-set_gold_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.21388888888888888,
+                              0.29259259259259257,
+                              0.93055555555555558,
+                              0.74444444444444446
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/stacking-ring-set_gold_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.088888888888888892,
+                              0.98888888888888893,
+                              0.912962962962963
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.057407407407407428,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/printed-scarf_navy_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.044444444444444446,
+                              0.13333333333333333,
+                              0.95277777777777772,
+                              0.87037037037037035
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/printed-scarf_navy_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              1
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.016888888888888842,
+                            0.08713580246913577,
+                            0.98311111111111116,
+                            0.87387654320987662
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slim-belt_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.075,
+                              0.37037037037037035,
+                              0.95277777777777772,
+                              0.67777777777777781
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/slim-belt_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.16296296296296298,
+                              0.98888888888888893,
+                              0.8037037037037037
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.073148148148148184,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/frame-sunglasses_black_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.03888888888888889,
+                              0.35555555555555557,
+                              0.97222222222222221,
+                              0.67962962962962958
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/frame-sunglasses_black_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0.070370370370370375,
+                              0.98888888888888893,
+                              0.81481481481481477
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0.054111111111111054,
+                            0.11106172839506175,
+                            0.9084444444444445,
+                            0.80750617283950621
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ribbed-beanie_cream_side.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.10277777777777777,
+                              0.20925925925925926,
+                              0.91388888888888886,
+                              0.82037037037037042
+                          ]
+    },
+    {
+        "sourceFrame":  [
+                            0,
+                            0.05555555555555558,
+                            1,
+                            0.88888888888888884
+                        ],
+        "width":  720,
+        "asset":  "assets/images/photography/ribbed-beanie_cream_detail.jpg",
+        "height":  960,
+        "subjectBounds":  [
+                              0.011111111111111112,
+                              0,
+                              0.98888888888888893,
+                              1
+                          ]
+    }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "moda-shop-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone REST API foundation for MODA Shop",
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node scripts/check.js",
+    "prisma:format": "prisma format",
+    "prisma:validate": "prisma validate",
+    "prisma:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:seed": "prisma db seed",
+    "db:check": "node scripts/check-database.js",
+    "api:verify": "node scripts/verify-products-api.js",
+    "auth:secret": "node scripts/setup-auth-secret.js",
+    "auth:verify": "node scripts/verify-auth-api.js",
+    "recovery:verify": "node scripts/verify-recovery.js",
+    "commerce:verify": "node scripts/verify-commerce.js",
+    "catalog:verify": "node scripts/verify-expanded-catalog.js",
+    "email:check": "node scripts/check-email.js",
+    "email:preview": "node scripts/preview-emails.js",
+    "account:verify": "node scripts/verify-account.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.0.0",
+    "@prisma/client": "^7.0.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "prisma": "^7.0.0"
+  }
+}
