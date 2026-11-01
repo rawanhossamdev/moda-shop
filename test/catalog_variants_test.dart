@@ -41,6 +41,52 @@ Widget detail(Product product, Cart cart) => MaterialApp(
 
 void main() {
   testWidgets(
+    'Success SnackBar auto-dismisses and repeated cart adds replace queued messages',
+    (tester) async {
+      final dress = catalog().firstWhere((p) => p.id == 'wrap-midi-dress');
+      final cart = Cart();
+      addTearDown(cart.dispose);
+      tester.view.physicalSize = const Size(390, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      await tester.pumpWidget(detail(dress, cart));
+      await tester.pumpAndSettle();
+
+      Future<void> addSelectedVariant() async {
+        await tester.tap(find.text('ADD TO CART'));
+        await tester.pump();
+      }
+
+      await addSelectedVariant();
+      expect(
+        find.text('Wrap Midi Dress · Dusty Rose / Size M added to cart'),
+        findsOneWidget,
+      );
+
+      await tester.pump(const Duration(milliseconds: 600));
+      await addSelectedVariant();
+      await tester.pump(const Duration(milliseconds: 600));
+      await addSelectedVariant();
+      await tester.pumpAndSettle();
+
+      expect(cart.count, 3);
+      expect(
+        find.text('Wrap Midi Dress · Dusty Rose / Size M added to cart'),
+        findsOneWidget,
+      );
+
+      await tester.pump(const Duration(seconds: 3));
+      await tester.pump(const Duration(milliseconds: 350));
+      expect(
+        find.text('Wrap Midi Dress · Dusty Rose / Size M added to cart'),
+        findsNothing,
+      );
+      expect(find.byType(SnackBar), findsNothing);
+    },
+  );
+
+  testWidgets(
     'Bag variants override a stale clothing-size summary and add the selected color as One Size',
     (tester) async {
       final source = catalogJson().firstWhere((p) => p['id'] == 'shoulder-bag');

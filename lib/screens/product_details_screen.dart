@@ -150,12 +150,14 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
       return;
     }
     ScaffoldMessenger.of(context)
-      ..hideCurrentSnackBar()
+      ..clearSnackBars()
       ..showSnackBar(
         SnackBar(
           content: Text(
             '${_product!.name} · ${variantLabel(_size, _color?.name)} added to cart',
           ),
+          duration: const Duration(seconds: 3),
+          persist: false,
           action: SnackBarAction(
             label: 'VIEW CART',
             onPressed: () => Navigator.of(context).push(
